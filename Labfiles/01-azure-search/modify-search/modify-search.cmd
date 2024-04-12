@@ -1,8 +1,8 @@
 @echo off
 
 rem Set values for your Search service
-set url=YOUR_SEARCH_URL
-set admin_key=YOUR_ADMIN_KEY
+set url="https://01-azure-search-ai2.search.windows.net"
+set admin_key="GAFanOfPfT8IDI5K6xr2UV215v9E2xDBhZpiABdmjqAzSeDwfXKn"
 
 echo -----
 echo Updating the skillset...

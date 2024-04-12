@@ -2,9 +2,9 @@
 SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem Set values for your storage account
-set subscription_id=YOUR_SUBSCRIPTION_ID
-set azure_storage_account=YOUR_AZURE_STORAGE_ACCOUNT_NAME
-set azure_storage_key=YOUR_AZURE_STORAGE_KEY
+set subscription_id="053b2edd-bc13-453e-9f0f-98145fdfbea6"
+set azure_storage_account="01azuresearchstorage"
+set azure_storage_key="BX1fUJvCyvsngmLDz62JO6LzQKjWMUpCiwvYa8vfyxaQoJx1l3CXaqjuq9wXYzO2lZnkZlbmXukK+AStJ5VOAw=="
 
 
 echo Creating container...
