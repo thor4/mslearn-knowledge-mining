@@ -4,14 +4,14 @@
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
         "description": "Azure AI services",
-        "key": "YOUR_AI_SERVICES_KEY"
+        "key": "0a88e22f85054957886df82b4f883225"
       },
     "skills": [
       {
         "name": "get-top-words",
         "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
         "description": "custom skill to get top 10 most frequent words",
-        "uri": "YOUR_FUNCTION_APP_URL",
+        "uri": "https://02-function-app.azurewebsites.net/api/wordcount?code=H9TlCmzuraLRTzXSgULx3l42htvZ0S6xddYI-naq1JU1AzFukXLWXg==",
         "batchSize":1,
         "context": "/document",
         "inputs": [
